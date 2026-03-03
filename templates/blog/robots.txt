@@ -1,0 +1,11 @@
+# Winston Self Storage Blog - robots.txt
+# https://blog.winston.beamsstorage.com
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://blog.winston.beamsstorage.com/sitemap.xml
+
+# Disallow template files
+Disallow: /posts/_post-template.html

@@ -1,0 +1,247 @@
+/* =============================================================================
+   Winston Self Storage - Layout Patterns
+   ============================================================================= */
+
+/* Container */
+.wss-container {
+  max-width: var(--wss-max-width);
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: var(--wss-space-4);
+  padding-right: var(--wss-space-4);
+}
+
+@media (min-width: 640px) {
+  .wss-container {
+    padding-left: var(--wss-space-6);
+    padding-right: var(--wss-space-6);
+  }
+}
+
+@media (min-width: 1024px) {
+  .wss-container {
+    padding-left: var(--wss-space-8);
+    padding-right: var(--wss-space-8);
+  }
+}
+
+/* Sections */
+.wss-section {
+  padding-top: var(--wss-space-12);
+  padding-bottom: var(--wss-space-12);
+}
+
+@media (min-width: 640px) {
+  .wss-section {
+    padding-top: var(--wss-space-16);
+    padding-bottom: var(--wss-space-16);
+  }
+}
+
+@media (min-width: 1024px) {
+  .wss-section {
+    padding-top: var(--wss-space-20);
+    padding-bottom: var(--wss-space-20);
+  }
+}
+
+/* Section Modifiers */
+.wss-section--white {
+  background-color: var(--wss-bg);
+}
+
+.wss-section--gray {
+  background-color: var(--wss-bg-alt);
+}
+
+.wss-section--primary {
+  background-color: var(--wss-primary);
+  color: white;
+}
+
+.wss-section--primary-light {
+  background-color: var(--wss-primary-50);
+}
+
+.wss-section--dark {
+  background-color: var(--wss-gray-900);
+  color: white;
+}
+
+/* Section Header */
+.wss-section-header {
+  text-align: center;
+  margin-bottom: var(--wss-space-12);
+}
+
+.wss-section-header--left {
+  text-align: left;
+}
+
+.wss-section-header__eyebrow {
+  color: var(--wss-primary);
+  font-weight: 600;
+  font-size: var(--wss-text-sm);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: var(--wss-space-2);
+}
+
+.wss-section--primary .wss-section-header__eyebrow {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.wss-section-header__title {
+  font-size: var(--wss-text-3xl);
+  font-weight: 700;
+  color: var(--wss-text);
+  margin-bottom: var(--wss-space-4);
+}
+
+@media (min-width: 640px) {
+  .wss-section-header__title {
+    font-size: var(--wss-text-4xl);
+  }
+}
+
+.wss-section--primary .wss-section-header__title,
+.wss-section--dark .wss-section-header__title {
+  color: white;
+}
+
+.wss-section-header__subtitle {
+  color: var(--wss-text-muted);
+  max-width: 42rem;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: var(--wss-text-lg);
+}
+
+.wss-section--primary .wss-section-header__subtitle,
+.wss-section--dark .wss-section-header__subtitle {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.wss-section-header--left .wss-section-header__subtitle {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/* Grid Systems */
+.wss-grid {
+  display: grid;
+  gap: var(--wss-space-8);
+}
+
+.wss-grid--2 {
+  grid-template-columns: 1fr;
+}
+
+.wss-grid--3 {
+  grid-template-columns: 1fr;
+}
+
+.wss-grid--4 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.wss-grid--5 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.wss-grid--6 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+@media (min-width: 640px) {
+  .wss-grid--2 { grid-template-columns: repeat(2, 1fr); }
+  .wss-grid--4 { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (min-width: 768px) {
+  .wss-grid--3 { grid-template-columns: repeat(3, 1fr); }
+  .wss-grid--5 { grid-template-columns: repeat(3, 1fr); }
+  .wss-grid--6 { grid-template-columns: repeat(3, 1fr); }
+}
+
+@media (min-width: 1024px) {
+  .wss-grid--4 { grid-template-columns: repeat(4, 1fr); }
+  .wss-grid--5 { grid-template-columns: repeat(5, 1fr); }
+  .wss-grid--6 { grid-template-columns: repeat(6, 1fr); }
+}
+
+/* Two Column Layout */
+.wss-layout-2col {
+  display: grid;
+  gap: var(--wss-space-8);
+}
+
+@media (min-width: 1024px) {
+  .wss-layout-2col {
+    grid-template-columns: 1fr 1fr;
+    gap: var(--wss-space-12);
+  }
+}
+
+/* Sidebar Layout */
+.wss-layout-sidebar {
+  display: grid;
+  gap: var(--wss-space-12);
+}
+
+@media (min-width: 1024px) {
+  .wss-layout-sidebar {
+    grid-template-columns: 2fr 1fr;
+  }
+}
+
+/* Flex Utilities */
+.wss-flex {
+  display: flex;
+}
+
+.wss-flex-col {
+  flex-direction: column;
+}
+
+.wss-flex-wrap {
+  flex-wrap: wrap;
+}
+
+.wss-items-center {
+  align-items: center;
+}
+
+.wss-items-start {
+  align-items: flex-start;
+}
+
+.wss-justify-center {
+  justify-content: center;
+}
+
+.wss-justify-between {
+  justify-content: space-between;
+}
+
+.wss-gap-2 { gap: var(--wss-space-2); }
+.wss-gap-3 { gap: var(--wss-space-3); }
+.wss-gap-4 { gap: var(--wss-space-4); }
+.wss-gap-6 { gap: var(--wss-space-6); }
+.wss-gap-8 { gap: var(--wss-space-8); }
+
+/* Text Alignment */
+.wss-text-center { text-align: center; }
+.wss-text-left { text-align: left; }
+.wss-text-right { text-align: right; }
+
+/* Spacing Utilities */
+.wss-mt-4 { margin-top: var(--wss-space-4); }
+.wss-mt-6 { margin-top: var(--wss-space-6); }
+.wss-mt-8 { margin-top: var(--wss-space-8); }
+.wss-mt-12 { margin-top: var(--wss-space-12); }
+
+.wss-mb-4 { margin-bottom: var(--wss-space-4); }
+.wss-mb-6 { margin-bottom: var(--wss-space-6); }
+.wss-mb-8 { margin-bottom: var(--wss-space-8); }
+.wss-mb-12 { margin-bottom: var(--wss-space-12); }

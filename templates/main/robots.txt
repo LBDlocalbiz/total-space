@@ -1,0 +1,11 @@
+# Self Storage Site Template - Robots.txt
+# Replace {{DOMAIN}} with actual domain before deployment
+
+User-agent: *
+Allow: /
+
+# Disallow admin and non-public pages
+Disallow: /404.html
+
+# Sitemap location
+Sitemap: {{DOMAIN}}sitemap.xml

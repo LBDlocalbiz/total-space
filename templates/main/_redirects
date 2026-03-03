@@ -1,0 +1,9 @@
+# Self Storage Site Template - Netlify Redirects
+# Clean URLs and redirects for SEO
+
+# Directory index handling
+/services    /services/index.html    200
+/cities      /cities/index.html      200
+
+# 404 fallback
+/*    /404.html    404

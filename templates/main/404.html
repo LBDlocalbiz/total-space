@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-PCG3NH9N');</script>
+
+  <!-- SEO Meta Tags -->
+  <title>Page Not Found | {{BUSINESS_NAME}}</title>
+  <meta name="description" content="The page you're looking for could not be found. Return to {{BUSINESS_NAME}} homepage.">
+  <meta name="robots" content="noindex, follow">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="{{LOGO_TR}}">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PCG3NH9N" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+<!-- HEADER -->
+<header class="wss-header">
+  <nav class="wss-container">
+    <div class="wss-header__inner">
+      <a href="/"><img src="{{LOGO_TR}}" alt="{{BUSINESS_NAME}} Logo" class="wss-header__logo"></a>
+      <div class="wss-header__nav">
+        <a href="/" class="wss-header__nav-link">Home</a>
+        <a href="/about.html" class="wss-header__nav-link">About Us</a>
+        <a href="/size-guide.html" class="wss-header__nav-link">Size Guide</a>
+        <a href="/faqs.html" class="wss-header__nav-link">FAQs</a>
+      </div>
+      <div class="wss-header__actions">
+        <a href="tel:{{PHONE_TTC}}" class="wss-header__phone">
+          <svg class="wss-header__phone-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+          <span class="wss-header__phone-text">{{PHONE_DISPLAY}}</span>
+        </a>
+        <a href="{{PAY_BILL_URL}}" target="_blank" rel="noopener noreferrer" class="wss-btn wss-btn--primary wss-btn--sm">Pay My Bill</a>
+        <button type="button" class="wss-header__menu-toggle" aria-label="Open menu" data-menu-toggle>
+          <svg class="wss-header__menu-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
+        </button>
+      </div>
+    </div>
+    <div class="wss-header__mobile-menu" id="mobile-menu">
+      <div class="wss-header__mobile-nav">
+        <a href="/" class="wss-header__mobile-link">Home</a>
+        <a href="/about.html" class="wss-header__mobile-link">About Us</a>
+        <a href="/size-guide.html" class="wss-header__mobile-link">Size Guide</a>
+        <a href="/faqs.html" class="wss-header__mobile-link">FAQs</a>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main>
+  <section class="wss-section wss-section--white" style="min-height: 60vh; display: flex; align-items: center;">
+    <div class="wss-container" style="text-align: center;">
+      <div style="font-size: 8rem; font-weight: 700; color: var(--wss-primary); line-height: 1;">404</div>
+      <h1 style="font-size: var(--wss-text-3xl); font-weight: 700; margin-bottom: 1rem;">Page Not Found</h1>
+      <p style="color: var(--wss-gray-600); font-size: var(--wss-text-lg); margin-bottom: 2rem; max-width: 32rem; margin-left: auto; margin-right: auto;">Oops! The page you're looking for seems to have been moved or doesn't exist. Let's get you back on track.</p>
+      <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 1rem;">
+        <a href="/" class="wss-btn wss-btn--primary">Back to Homepage</a>
+        <a href="/contact.html" class="wss-btn wss-btn--secondary">Contact Us</a>
+      </div>
+      <div style="margin-top: 3rem; padding-top: 2rem; border-top: 1px solid var(--wss-gray-200);">
+        <p style="color: var(--wss-gray-500); margin-bottom: 1rem;">Looking for something specific?</p>
+        <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 1.5rem;">
+          <a href="/size-guide.html" style="color: var(--wss-primary); text-decoration: none; font-weight: 500;">Size Guide</a>
+          <a href="/services/" style="color: var(--wss-primary); text-decoration: none; font-weight: 500;">Our Services</a>
+          <a href="/faqs.html" style="color: var(--wss-primary); text-decoration: none; font-weight: 500;">FAQs</a>
+          <a href="tel:{{PHONE_TTC}}" style="color: var(--wss-primary); text-decoration: none; font-weight: 500;">Call Us</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- FOOTER -->
+<footer class="wss-footer">
+  <div class="wss-container wss-footer__main">
+    <div class="wss-footer__grid">
+      <div class="wss-footer__column">
+        <img src="{{LOGO_TR}}" alt="{{BUSINESS_NAME}} Logo" class="wss-footer__logo">
+        <p class="wss-footer__tagline">{{TAGLINE}}</p>
+        <div class="wss-footer__social">
+          <a href="{{FACEBOOK_URL}}" target="_blank" class="wss-footer__social-link" aria-label="Facebook"><svg class="wss-footer__social-icon" fill="currentColor" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg></a>
+          <a href="{{GB_MAP_SHARE}}" target="_blank" class="wss-footer__social-link" aria-label="Google Maps"><svg class="wss-footer__social-icon" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0C7.802 0 4 3.403 4 7.602 4 11.8 7.469 16.812 12 24c4.531-7.188 8-12.2 8-16.398C20 3.403 16.199 0 12 0zm0 11a3 3 0 110-6 3 3 0 010 6z"/></svg></a>
+        </div>
+      </div>
+      <div class="wss-footer__column"><h3 class="wss-footer__heading">Quick Links</h3><ul class="wss-footer__nav"><li><a href="/" class="wss-footer__nav-link">Home</a></li><li><a href="/size-guide.html" class="wss-footer__nav-link">Size Guide</a></li><li><a href="/services/" class="wss-footer__nav-link">Services</a></li><li><a href="/about.html" class="wss-footer__nav-link">About Us</a></li><li><a href="/contact.html" class="wss-footer__nav-link">Contact</a></li></ul></div>
+      <div class="wss-footer__column"><h3 class="wss-footer__heading">Our Services</h3><ul class="wss-footer__nav"><li><a href="/services/{{SERVICE_1_SLUG}}.html" class="wss-footer__nav-link">{{SERVICE_1_NAME}}</a></li><li><a href="/services/{{SERVICE_2_SLUG}}.html" class="wss-footer__nav-link">{{SERVICE_2_NAME}}</a></li><li><a href="/services/{{SERVICE_3_SLUG}}.html" class="wss-footer__nav-link">{{SERVICE_3_NAME}}</a></li><li><a href="/services/{{SERVICE_4_SLUG}}.html" class="wss-footer__nav-link">{{SERVICE_4_NAME}}</a></li></ul></div>
+      <div class="wss-footer__column"><h3 class="wss-footer__heading">Contact Us</h3><ul class="wss-footer__contact"><li class="wss-footer__contact-item"><svg class="wss-footer__contact-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg><a href="{{GB_MAP_SHARE}}" target="_blank" class="wss-footer__contact-link">{{STREET_ADDRESS}} {{PRIMARY_CITY}}, {{STATE_CODE}} {{ZIP_CODE}}</a></li><li class="wss-footer__contact-item"><svg class="wss-footer__contact-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg><a href="tel:{{PHONE_TTC}}" class="wss-footer__contact-link">{{PHONE_DISPLAY}}</a></li><li class="wss-footer__contact-item"><svg class="wss-footer__contact-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg><a href="mailto:{{EMAIL_ADDRESS}}" class="wss-footer__contact-link">{{EMAIL_ADDRESS}}</a></li><li class="wss-footer__contact-item"><svg class="wss-footer__contact-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg><div class="wss-footer__hours"><p>{{HOURS_DISPLAY}}</p></div></li></ul></div>
+    </div>
+  </div>
+  <div class="wss-footer__bottom"><div class="wss-container wss-footer__bottom-inner"><p>&copy; {{CURRENT_YEAR}} {{BUSINESS_NAME}}. All rights reserved.</p><div class="wss-footer__legal"><a href="/privacy.html" class="wss-footer__legal-link">Privacy Policy</a><a href="/terms.html" class="wss-footer__legal-link">Terms of Service</a></div></div></div>
+</footer>
+
+<script src="/js/main.js"></script>
+</body>
+</html>
