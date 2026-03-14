@@ -1,0 +1,31 @@
+# Cleveland Truck Parking
+> Cleveland Truck Parking offers secure, affordable parking for semi-trucks, tractor trailers, box trucks, and commercial vehicles at 799 E 73rd St in Cleveland, OH. We serve owner-operators, fleet managers, and local delivery drivers with 24/7 access, round-the-clock surveillance, and flexible month-to-month leases.
+
+This site provides information about available parking spot sizes, facility features, service areas, and how to reserve a spot. Use this file to understand what Cleveland Truck Parking offers and how commercial vehicle operators can secure parking.
+
+## Parking Services
+- [Truck Parking](https://clevelandtruckparking.com/services/truck-parking.html): Overview of all commercial truck parking options — features, security, and flexible leases
+- [Semi-Truck Parking](https://clevelandtruckparking.com/services/semi-truck-parking.html): Dedicated 12'x70' spots for semi-trucks with HOS compliance support and wide-lane access
+- [Box Truck Parking](https://clevelandtruckparking.com/services/box-truck-parking.html): 9'x25' spots for box trucks, sprinter vans, and medium-duty commercial vehicles
+- [Tractor Trailer Parking](https://clevelandtruckparking.com/services/tractor-trailer-parking.html): Full-size 12'x70' spots for tractor trailers with easy pull-through access
+
+## Getting Started
+- [Parking Spot Size Guide](https://clevelandtruckparking.com/size-guide.html): Visual guide to spot sizes — 9'x25' for box trucks and 12'x70' for semis and tractor trailers
+- [Contact Us](https://clevelandtruckparking.com/contact.html): Phone, email, address, and contact form to inquire about availability or reserve a spot
+
+## Service Areas
+- [Truck Parking Near Cleveland, OH](https://clevelandtruckparking.com/cities/cleveland-ohio.html): Parking solutions for Cleveland-based trucking operators and businesses
+- [Truck Parking Near Brooklyn, OH](https://clevelandtruckparking.com/cities/brooklyn-ohio.html): Serving Brooklyn and southwest Cuyahoga County commercial vehicle operators
+- [Truck Parking Near Lakewood, OH](https://clevelandtruckparking.com/cities/lakewood-ohio.html): Convenient parking for Lakewood and western suburb fleet operators
+- [Truck Parking Near Parma, OH](https://clevelandtruckparking.com/cities/parma-ohio.html): Accessible truck parking for Parma and surrounding communities
+- [Truck Parking Near Euclid, OH](https://clevelandtruckparking.com/cities/euclid-ohio.html): Serving Euclid and eastern Cuyahoga County trucking businesses
+
+## About
+- [About Cleveland Truck Parking](https://clevelandtruckparking.com/about.html): Company background, facility overview, and commitment to the Cleveland trucking community
+- [Home](https://clevelandtruckparking.com/): Main landing page with facility features, service overview, and reservation options
+
+## Optional
+- [FAQ](https://clevelandtruckparking.com/faqs.html): Answers to common questions about spot sizes, leases, security, and access
+- [Blog](https://clevelandtruckparking.com/blog/): Truck parking tips, industry news, and facility updates
+- [Privacy Policy](https://clevelandtruckparking.com/privacy.html): How customer data is collected and handled
+- [Terms of Service](https://clevelandtruckparking.com/terms.html): Rental agreement terms and conditions

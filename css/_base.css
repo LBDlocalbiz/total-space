@@ -1,0 +1,151 @@
+/* =============================================================================
+   Winston Self Storage - Base Styles
+   ============================================================================= */
+
+/* Reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font-family: var(--wss-font-body);
+  font-size: var(--wss-text-base);
+  line-height: 1.6;
+  color: var(--wss-text);
+  background-color: var(--wss-bg);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--wss-font-heading);
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: -0.025em;
+  color: var(--wss-text);
+}
+
+h1 {
+  font-size: var(--wss-text-4xl);
+  font-weight: 700;
+}
+
+h2 {
+  font-size: var(--wss-text-3xl);
+}
+
+h3 {
+  font-size: var(--wss-text-2xl);
+}
+
+h4 {
+  font-size: var(--wss-text-xl);
+}
+
+h5 {
+  font-size: var(--wss-text-lg);
+}
+
+h6 {
+  font-size: var(--wss-text-base);
+}
+
+@media (min-width: 640px) {
+  h1 { font-size: var(--wss-text-5xl); }
+  h2 { font-size: var(--wss-text-4xl); }
+  h3 { font-size: var(--wss-text-3xl); }
+  h4 { font-size: var(--wss-text-2xl); }
+}
+
+@media (min-width: 1024px) {
+  h1 { font-size: var(--wss-text-6xl); }
+}
+
+p {
+  line-height: 1.7;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: color var(--wss-transition);
+}
+
+a:hover {
+  color: var(--wss-primary);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+button {
+  font-family: inherit;
+  font-size: inherit;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+input, textarea, select {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+/* Screen Reader Only */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+/* Visibility Utilities */
+.hidden {
+  display: none !important;
+}
+
+@media (min-width: 640px) {
+  .sm\:hidden { display: none !important; }
+  .sm\:block { display: block !important; }
+  .sm\:inline { display: inline !important; }
+  .sm\:flex { display: flex !important; }
+}
+
+@media (min-width: 768px) {
+  .md\:hidden { display: none !important; }
+  .md\:block { display: block !important; }
+  .md\:inline { display: inline !important; }
+  .md\:flex { display: flex !important; }
+}
+
+@media (min-width: 1024px) {
+  .lg\:hidden { display: none !important; }
+  .lg\:block { display: block !important; }
+  .lg\:inline { display: inline !important; }
+  .lg\:flex { display: flex !important; }
+}

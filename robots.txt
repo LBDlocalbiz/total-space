@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+
+# Disallow admin and non-public pages
+Disallow: /404.html
+
+# Sitemap location
+Sitemap: https://clevelandtruckparking.com/sitemap.xml
+
+# LLM-Index for AI assistants (llmld.org v1)
+LLM-Index: https://clevelandtruckparking.com/.well-known/llm-index.json
+LLM-Index: https://clevelandtruckparking.com/llm-index.json
+
+# LLMs.txt for AI crawlers (llmstxt.org)
+LLMs-Txt: https://clevelandtruckparking.com/llms.txt
