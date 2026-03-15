@@ -1,0 +1,24 @@
+{
+  "redirects": [
+    { "source": "/semi-truck-parking-services/", "destination": "/services/semi-truck-parking.html", "permanent": true },
+    { "source": "/semi-truck-parking-services", "destination": "/services/semi-truck-parking.html", "permanent": true },
+    { "source": "/tractor-trailer-parking-services/", "destination": "/services/tractor-trailer-parking.html", "permanent": true },
+    { "source": "/tractor-trailer-parking-services", "destination": "/services/tractor-trailer-parking.html", "permanent": true },
+    { "source": "/truck-parking-services/", "destination": "/services/truck-parking.html", "permanent": true },
+    { "source": "/truck-parking-services", "destination": "/services/truck-parking.html", "permanent": true },
+    { "source": "/size-guide/", "destination": "/size-guide.html", "permanent": true },
+    { "source": "/truck-parking-faqs/", "destination": "/faqs.html", "permanent": true },
+    { "source": "/truck-parking-faqs", "destination": "/faqs.html", "permanent": true },
+    { "source": "/about-us/", "destination": "/about.html", "permanent": true },
+    { "source": "/about-us", "destination": "/about.html", "permanent": true },
+    { "source": "/contact-us/", "destination": "/contact.html", "permanent": true },
+    { "source": "/contact-us", "destination": "/contact.html", "permanent": true },
+    { "source": "/privacy-policy/", "destination": "/privacy.html", "permanent": true },
+    { "source": "/privacy-policy", "destination": "/privacy.html", "permanent": true },
+    { "source": "/cleveland-truck-parking-expands-with-new-location-to-support-growing-needs-of-trucking-industry/", "destination": "/", "permanent": true },
+    { "source": "/cleveland-truck-parking-unveils-new-website-to-enhance-parking-solutions-for-the-trucking-industry/", "destination": "/", "permanent": true },
+    { "source": "/wp-sitemap-posts-page-1.xml", "destination": "/sitemap.xml", "permanent": true },
+    { "source": "/geositemap.xml", "destination": "/sitemap.xml", "permanent": true },
+    { "source": "/locations.kml", "destination": "/sitemap.xml", "permanent": true }
+  ]
+}
