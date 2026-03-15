@@ -1,5 +1,34 @@
-# Self Storage Site Template - Netlify Redirects
-# Clean URLs and redirects for SEO
+# Cleveland Truck Parking - Redirects
+# Old WordPress URLs → new static site paths (301 permanent)
+
+# Service pages (old WP slugs → new paths)
+/semi-truck-parking-services/        /services/semi-truck-parking.html    301
+/semi-truck-parking-services         /services/semi-truck-parking.html    301
+/tractor-trailer-parking-services/   /services/tractor-trailer-parking.html  301
+/tractor-trailer-parking-services    /services/tractor-trailer-parking.html  301
+/truck-parking-services/             /services/truck-parking.html         301
+/truck-parking-services              /services/truck-parking.html         301
+
+# Info pages (old WP slugs → new paths)
+/size-guide/        /size-guide.html    301
+/size-guide         /size-guide.html    301
+/truck-parking-faqs/  /faqs.html        301
+/truck-parking-faqs   /faqs.html        301
+/about-us/          /about.html         301
+/about-us           /about.html         301
+/contact-us/        /contact.html       301
+/contact-us         /contact.html       301
+/privacy-policy/    /privacy.html       301
+/privacy-policy     /privacy.html       301
+
+# Old blog posts (no equivalent on new site — redirect to homepage)
+/cleveland-truck-parking-expands-with-new-location-to-support-growing-needs-of-trucking-industry/   /   301
+/cleveland-truck-parking-unveils-new-website-to-enhance-parking-solutions-for-the-trucking-industry/   /   301
+
+# Old WordPress artifacts
+/wp-sitemap-posts-page-1.xml   /sitemap.xml   301
+/geositemap.xml                /sitemap.xml   301
+/locations.kml                 /sitemap.xml   301
 
 # Directory index handling
 /services    /services/index.html    200
