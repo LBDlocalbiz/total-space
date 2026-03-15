@@ -21,6 +21,80 @@
 
   <!-- Stylesheet -->
   <link rel="stylesheet" href="/css/styles.css">
+
+  <!-- Schema Markup - Location (ParkingFacility) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ParkingFacility",
+    "@id": "https://clevelandtruckparking.com/about.html",
+    "name": "Cleveland Truck Parking",
+    "description": "Cleveland Truck Parking offers secure, affordable parking for semi-trucks, tractor trailers, box trucks, and commercial vehicles. Located at 799 E 73rd St in Cleveland, OH with 24/7 access, round-the-clock surveillance, and flexible month-to-month leases.",
+    "slogan": "Secure Commercial Truck Parking in Cleveland, OH",
+    "priceRange": "$$",
+    "knowsAbout": ["Truck Parking Facility", "https://en.wikipedia.org/wiki/Truck_stop"],
+    "naics": "812930",
+    "isicv4": "5221",
+    "disambiguatingDescription": "Cleveland Truck Parking is a commercial vehicle parking facility in Cleveland, Ohio. It is NOT a truck stop with fuel or food services, NOT a self-storage facility, and NOT a vehicle repair shop. It provides dedicated outdoor parking spots for semi-trucks, tractor trailers, and box trucks.",
+    "telephone": "(216) 600-1656",
+    "email": "parking@clevelandtruckparking.com",
+    "url": "https://clevelandtruckparking.com/",
+    "paymentAccepted": ["Cash", "Check", "Credit Card", "Debit Card", "Visa", "Money Order"],
+    "sameAs": ["https://maps.app.goo.gl/tjNex1muJ4ezmnU27"],
+    "areaServed": {
+      "@type": "AdministrativeArea",
+      "geo": {
+        "@type": "GeoShape",
+        "postalCode": ["44103", "44109", "44107", "44134", "44129", "44132", "44119", "44112"]
+      },
+      "containsPlace": [
+        {"@type": "City", "name": "Cleveland, Ohio", "url": "https://maps.google.com/?q=Cleveland,+OH"},
+        {"@type": "City", "name": "Brooklyn, Ohio", "url": "https://maps.google.com/?q=Brooklyn,+OH"},
+        {"@type": "City", "name": "Lakewood, Ohio", "url": "https://maps.google.com/?q=Lakewood,+OH"},
+        {"@type": "City", "name": "Parma, Ohio", "url": "https://maps.google.com/?q=Parma,+OH"},
+        {"@type": "City", "name": "Euclid, Ohio", "url": "https://maps.google.com/?q=Euclid,+OH"}
+      ]
+    },
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "799 E 73rd St",
+      "addressLocality": "Cleveland",
+      "addressRegion": "OH",
+      "postalCode": "44103",
+      "addressCountry": "US"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 41.5322906,
+      "longitude": -81.6373152
+    },
+    "hasMap": "https://maps.app.goo.gl/tjNex1muJ4ezmnU27",
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+        "opens": "00:00",
+        "closes": "23:59",
+        "description": "24/7 Gate Access"
+      }
+    ],
+    "logo": {
+      "@type": "ImageObject",
+      "@id": "logo",
+      "contentUrl": "https://clevelandtruck-parking.s3.us-east-1.amazonaws.com/logo/tr.png",
+      "url": "https://clevelandtruck-parking.s3.us-east-1.amazonaws.com/logo/tr.png"
+    },
+    "makesOffer": {
+      "@type": "Offer",
+      "itemOffered": [
+        {"@id": "https://clevelandtruckparking.com/services/truck-parking.html"},
+        {"@id": "https://clevelandtruckparking.com/services/semi-truck-parking.html"},
+        {"@id": "https://clevelandtruckparking.com/services/box-truck-parking.html"},
+        {"@id": "https://clevelandtruckparking.com/services/tractor-trailer-parking.html"}
+      ]
+    }
+  }
+  </script>
   <link rel="llm-index" href="/llm-index.json" type="application/json">
 </head>
 <body>

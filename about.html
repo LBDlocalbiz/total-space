@@ -28,28 +28,80 @@
   <!-- Stylesheet -->
   <link rel="stylesheet" href="/css/styles.css">
 
-  <!-- Schema Markup - Corporation -->
+  <!-- Schema Markup - Corporation (Org Schema) -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "Corporation",
+    "@id": "https://clevelandtruckparking.com/about.html",
     "name": "Cleveland Truck Parking",
     "description": "Cleveland Truck Parking offers secure, affordable parking for semi-trucks, tractor trailers, box trucks, and commercial vehicles. Located at 799 E 73rd St in Cleveland, OH with 24/7 access, round-the-clock surveillance, and flexible month-to-month leases.",
+    "slogan": "Secure Commercial Truck Parking in Cleveland, OH",
+    "knowsAbout": ["Truck Parking Facility", "https://en.wikipedia.org/wiki/Truck_stop"],
+    "naics": "812930",
+    "isicv4": "5221",
+    "disambiguatingDescription": "Cleveland Truck Parking is a commercial vehicle parking facility in Cleveland, Ohio. It is NOT a truck stop with fuel or food services, NOT a self-storage facility, and NOT a vehicle repair shop. It provides dedicated outdoor parking spots for semi-trucks, tractor trailers, and box trucks.",
     "url": "https://clevelandtruckparking.com/",
-    "logo": "https://clevelandtruck-parking.s3.us-east-1.amazonaws.com/logo/tr.png",
-    "telephone": "(216) 600-1656",
-    "email": "parking@clevelandtruckparking.com",
+    "areaServed": null,
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "799 E 73rd St,",
+      "streetAddress": "799 E 73rd St",
       "addressLocality": "Cleveland",
       "addressRegion": "OH",
       "postalCode": "44103",
-      "addressCountry": "USA"
+      "addressCountry": "US"
     },
-    "sameAs": [
-      "https://maps.app.goo.gl/tjNex1muJ4ezmnU27"
-    ]
+    "logo": {
+      "@type": "ImageObject",
+      "@id": "logo",
+      "contentUrl": "https://clevelandtruck-parking.s3.us-east-1.amazonaws.com/logo/tr.png",
+      "url": "https://clevelandtruck-parking.s3.us-east-1.amazonaws.com/logo/tr.png"
+    },
+    "makesOffer": {
+      "@type": "Offer",
+      "itemOffered": [
+        {
+          "@type": "Service",
+          "@id": "https://clevelandtruckparking.com/services/truck-parking.html",
+          "name": "Truck Parking",
+          "url": "https://clevelandtruckparking.com/services/truck-parking.html",
+          "description": "Secure commercial truck parking with 24/7 access, round-the-clock video surveillance, wide lanes for easy maneuvering, well-lit grounds, and flexible month-to-month leases. Starting at $125/month.",
+          "audience": {"@type": "Audience", "audienceType": "Owner-operators, fleet managers, and commercial trucking companies in the Cleveland area"},
+          "provider": {"@id": "https://clevelandtruckparking.com/about.html"},
+          "brand": {"@id": "https://clevelandtruckparking.com/about.html"}
+        },
+        {
+          "@type": "Service",
+          "@id": "https://clevelandtruckparking.com/services/semi-truck-parking.html",
+          "name": "Semi-Truck Parking",
+          "url": "https://clevelandtruckparking.com/services/semi-truck-parking.html",
+          "description": "Dedicated semi-truck parking with 12x70 ft spots for full-size Class 8 semi-trucks and 18-wheelers. 24/7 gated access, video surveillance, wide turning lanes, and flexible month-to-month leases. $125/month.",
+          "audience": {"@type": "Audience", "audienceType": "Long-haul truckers, owner-operators of Class 8 vehicles, and OTR drivers needing overnight or extended parking"},
+          "provider": {"@id": "https://clevelandtruckparking.com/about.html"},
+          "brand": {"@id": "https://clevelandtruckparking.com/about.html"}
+        },
+        {
+          "@type": "Service",
+          "@id": "https://clevelandtruckparking.com/services/box-truck-parking.html",
+          "name": "Box Truck Parking",
+          "url": "https://clevelandtruckparking.com/services/box-truck-parking.html",
+          "description": "Box truck parking with 9x25 ft spots for box trucks, delivery trucks, reefer trucks, and enclosed trailers. 24/7 gated access, video surveillance, and month-to-month leases. $125/month.",
+          "audience": {"@type": "Audience", "audienceType": "Local delivery drivers, last-mile logistics operators, and small fleet owners with medium-duty vehicles"},
+          "provider": {"@id": "https://clevelandtruckparking.com/about.html"},
+          "brand": {"@id": "https://clevelandtruckparking.com/about.html"}
+        },
+        {
+          "@type": "Service",
+          "@id": "https://clevelandtruckparking.com/services/tractor-trailer-parking.html",
+          "name": "Tractor Trailer Parking",
+          "url": "https://clevelandtruckparking.com/services/tractor-trailer-parking.html",
+          "description": "Tractor trailer parking with 12x70 ft spots for full-size tractor trailers, 18-wheelers, and over-the-road vehicles. 24/7 gated access, video surveillance, wide lanes, and month-to-month leases. $125/month.",
+          "audience": {"@type": "Audience", "audienceType": "Fleet managers, freight carriers, and intermodal operators needing secure tractor trailer storage"},
+          "provider": {"@id": "https://clevelandtruckparking.com/about.html"},
+          "brand": {"@id": "https://clevelandtruckparking.com/about.html"}
+        }
+      ]
+    }
   }
   </script>
   <link rel="llm-index" href="/llm-index.json" type="application/json">

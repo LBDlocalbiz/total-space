@@ -32,42 +32,97 @@
   <!-- Stylesheet -->
   <link rel="stylesheet" href="/css/styles.css">
 
-  <!-- Schema Markup - LocalBusiness (Location Schema) -->
+  <!-- Schema Markup - Zero-Point ParkingFacility (Three Vectors) -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "LocalBusiness",
-    "@id": "https://clevelandtruckparking.com/",
+    "@type": "ParkingFacility",
+    "@id": "https://clevelandtruckparking.com/#entity",
     "name": "Cleveland Truck Parking",
+    "legalName": "Cleveland Truck Parking LLC",
     "description": "Cleveland Truck Parking offers secure, affordable parking for semi-trucks, tractor trailers, box trucks, and commercial vehicles. Located at 799 E 73rd St in Cleveland, OH with 24/7 access, round-the-clock surveillance, and flexible month-to-month leases.",
-    "priceRange": "$$",
-    "telephone": "(216) 600-1656",
+    "slogan": "Secure Commercial Truck Parking in Cleveland, OH",
     "url": "https://clevelandtruckparking.com/",
-    "hasMap": "https://maps.app.goo.gl/tjNex1muJ4ezmnU27",
+    "telephone": "(216) 600-1656",
+    "email": "parking@clevelandtruckparking.com",
+    "priceRange": "$$",
+    "paymentAccepted": ["Cash", "Check", "Credit Card", "Debit Card", "Visa", "Money Order"],
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "799 E 73rd St,",
+      "streetAddress": "799 E 73rd St",
       "addressLocality": "Cleveland",
       "addressRegion": "OH",
       "postalCode": "44103",
-      "addressCountry": "USA"
+      "addressCountry": "US"
     },
-    "logo": {
-      "@type": "ImageObject",
-      "@id": "logo",
-      "contentUrl": "https://clevelandtruck-parking.s3.us-east-1.amazonaws.com/logo/tr.png",
-      "url": "https://clevelandtruck-parking.s3.us-east-1.amazonaws.com/logo/tr.png"
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 41.5322906,
+      "longitude": -81.6373152
     },
-    "paymentAccepted": ["Cash", "Check", "Credit Card", "Debit Card", "Visa", "Money Order"],
-    "areaServed": {
-      "@type": "AdministrativeArea",
-      "@id": "https://clevelandtruckparking.com/service-area",
-      "containsPlace": [
-        {"@type": "City", "name": "Cleveland, Ohio"},
-        {"@type": "City", "name": "Brooklyn, Ohio"},
-        {"@type": "City", "name": "Lakewood, Ohio"},
-        {"@type": "City", "name": "Parma, Ohio"},
-        {"@type": "City", "name": "Euclid, Ohio"}
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+        "opens": "00:00",
+        "closes": "23:59"
+      }
+    ],
+    "areaServed": [
+      {"@type": "City", "name": "Cleveland, OH", "sameAs": "https://en.wikipedia.org/wiki/Cleveland"},
+      {"@type": "City", "name": "Brooklyn, OH", "sameAs": "https://en.wikipedia.org/wiki/Brooklyn,_Ohio"},
+      {"@type": "City", "name": "Lakewood, OH", "sameAs": "https://en.wikipedia.org/wiki/Lakewood,_Ohio"},
+      {"@type": "City", "name": "Parma, OH", "sameAs": "https://en.wikipedia.org/wiki/Parma,_Ohio"},
+      {"@type": "City", "name": "Euclid, OH", "sameAs": "https://en.wikipedia.org/wiki/Euclid,_Ohio"}
+    ],
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Truck Parking Services",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "itemOffered": {"@type": "Service", "name": "Truck Parking"},
+          "priceSpecification": {
+            "@type": "UnitPriceSpecification",
+            "price": "125.00",
+            "priceCurrency": "USD",
+            "referenceQuantity": {"@type": "QuantitativeValue", "value": "1", "unitCode": "MON"}
+          },
+          "availability": "https://schema.org/InStock"
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {"@type": "Service", "name": "Semi-Truck Parking (12x70 ft spot)"},
+          "priceSpecification": {
+            "@type": "UnitPriceSpecification",
+            "price": "125.00",
+            "priceCurrency": "USD",
+            "referenceQuantity": {"@type": "QuantitativeValue", "value": "1", "unitCode": "MON"}
+          },
+          "availability": "https://schema.org/InStock"
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {"@type": "Service", "name": "Box Truck Parking (9x25 ft spot)"},
+          "priceSpecification": {
+            "@type": "UnitPriceSpecification",
+            "price": "125.00",
+            "priceCurrency": "USD",
+            "referenceQuantity": {"@type": "QuantitativeValue", "value": "1", "unitCode": "MON"}
+          },
+          "availability": "https://schema.org/InStock"
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {"@type": "Service", "name": "Tractor Trailer Parking (12x70 ft spot)"},
+          "priceSpecification": {
+            "@type": "UnitPriceSpecification",
+            "price": "125.00",
+            "priceCurrency": "USD",
+            "referenceQuantity": {"@type": "QuantitativeValue", "value": "1", "unitCode": "MON"}
+          },
+          "availability": "https://schema.org/InStock"
+        }
       ]
     },
     "sameAs": [
@@ -136,7 +191,7 @@
           <img src="https://clevelandtruck-parking.s3.us-east-1.amazonaws.com/1280x720/commercial+truck+parking.jpg" alt="Cleveland Truck Parking facility" style="width: 100%; height: 400px; object-fit: cover; border-radius: 1rem; box-shadow: var(--wss-shadow-2xl);">
           <div style="position: absolute; bottom: 1rem; left: 1rem; background: rgba(255,255,255,0.95); border-radius: 0.75rem; padding: 1rem; box-shadow: var(--wss-shadow-lg);">
             <p style="font-size: 0.875rem; color: var(--wss-gray-600); margin-bottom: 0.25rem;">Parking spots starting at</p>
-            <p style="font-size: 1.5rem; font-weight: 700; color: var(--wss-primary);">Affordable Rates</p>
+            <p style="font-size: 1.5rem; font-weight: 700; color: var(--wss-primary);">$125/month</p>
             <a href="/size-guide.html" class="wss-btn wss-btn--primary wss-btn--sm" style="margin-top: 0.75rem;">View Pricing</a>
           </div>
         </div>
@@ -148,9 +203,101 @@
   <section class="wss-section wss-section--gray" id="choose-spot">
     <div class="wss-container">
       <div class="wss-section-header">
-        <h2 class="wss-section-header__title">CHOOSE YOUR PARKING SPOT</h2>
+        <p class="wss-section-header__eyebrow">Reserve Today</p>
+        <h2 class="wss-section-header__title">Choose Your Parking Spot</h2>
+        <p class="wss-section-header__subtitle">Two spot sizes to fit every commercial vehicle. Both include 24/7 gated access, video surveillance, well-lit grounds, and flexible month-to-month leases.</p>
       </div>
-      
+
+      <div class="wss-grid wss-grid--2" style="gap: 2rem; max-width: 56rem; margin: 0 auto;">
+
+        <!-- UNIT CARD 1: Box Truck Spot (9x25) -->
+        <div class="wss-unit-card wss-unit-card--blue">
+          <div class="wss-unit-card__image">
+            <img src="/images/9x25-spot.png" alt="9x25 box truck parking spot at Cleveland Truck Parking">
+          </div>
+          <div class="wss-unit-card__content">
+            <div class="wss-unit-card__header">
+              <div>
+                <div class="wss-unit-card__size">9' x 25'</div>
+                <div class="wss-unit-card__sqft">225 sq ft</div>
+              </div>
+              <div style="text-align: right;">
+                <div style="font-size: var(--wss-text-2xl); font-weight: 700; color: var(--wss-primary);">$125</div>
+                <div style="font-size: var(--wss-text-xs); color: var(--wss-text-muted);">per month</div>
+              </div>
+            </div>
+            <div class="wss-unit-card__badges">
+              <span class="wss-unit-card__badge wss-unit-card__badge--blue">
+                <svg style="width: 0.75rem; height: 0.75rem; margin-right: 0.25rem;" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                24/7 Access
+              </span>
+              <span class="wss-unit-card__badge wss-unit-card__badge--green">
+                <svg style="width: 0.75rem; height: 0.75rem; margin-right: 0.25rem;" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+                Surveillance
+              </span>
+              <span class="wss-unit-card__badge">Month-to-Month</span>
+            </div>
+            <p class="wss-unit-card__description">Sized for medium-duty commercial vehicles. Easy pull-in access with wide lanes and well-lit grounds.</p>
+            <div class="wss-unit-card__items">
+              <p class="wss-unit-card__items-label">Vehicles That Fit</p>
+              <ul class="wss-unit-card__items-list">
+                <li><svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>Box Trucks (14'–26')</li>
+                <li><svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>Delivery &amp; Reefer Trucks</li>
+                <li><svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>Sprinter Vans &amp; Enclosed Trailers</li>
+                <li><svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>Dump Trailers &amp; Light Trailers</li>
+              </ul>
+            </div>
+            <a href="https://clevelandtruckparking.storageunitsoftware.com/pages/rent" target="_blank" rel="noopener noreferrer" class="wss-btn wss-btn--primary" style="width: 100%; margin-top: 1.5rem; text-align: center;">
+              Click Here to Rent Now
+            </a>
+          </div>
+        </div>
+
+        <!-- UNIT CARD 2: Semi / Tractor Trailer Spot (12x70) -->
+        <div class="wss-unit-card wss-unit-card--orange">
+          <div class="wss-unit-card__image">
+            <img src="/images/12x70-spot.png" alt="12x70 semi-truck and tractor trailer parking spot at Cleveland Truck Parking">
+          </div>
+          <div class="wss-unit-card__content">
+            <div class="wss-unit-card__header">
+              <div>
+                <div class="wss-unit-card__size">12' x 70'</div>
+                <div class="wss-unit-card__sqft">840 sq ft</div>
+              </div>
+              <div style="text-align: right;">
+                <div style="font-size: var(--wss-text-2xl); font-weight: 700; color: var(--wss-primary);">$125</div>
+                <div style="font-size: var(--wss-text-xs); color: var(--wss-text-muted);">per month</div>
+              </div>
+            </div>
+            <div class="wss-unit-card__badges">
+              <span class="wss-unit-card__badge wss-unit-card__badge--blue">
+                <svg style="width: 0.75rem; height: 0.75rem; margin-right: 0.25rem;" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                24/7 Access
+              </span>
+              <span class="wss-unit-card__badge wss-unit-card__badge--green">
+                <svg style="width: 0.75rem; height: 0.75rem; margin-right: 0.25rem;" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+                Surveillance
+              </span>
+              <span class="wss-unit-card__badge wss-unit-card__badge--orange">Wide Lanes</span>
+              <span class="wss-unit-card__badge">Month-to-Month</span>
+            </div>
+            <p class="wss-unit-card__description">Full-size spots for the largest commercial vehicles. Wide turning lanes and pull-through access for easy maneuvering.</p>
+            <div class="wss-unit-card__items">
+              <p class="wss-unit-card__items-label">Vehicles That Fit</p>
+              <ul class="wss-unit-card__items-list">
+                <li><svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>Semi-Trucks (Class 8 / 18-Wheelers)</li>
+                <li><svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>Tractor Trailers (up to 53')</li>
+                <li><svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>Sleeper Cabs &amp; Day Cabs</li>
+                <li><svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>Over-the-Road Vehicles</li>
+              </ul>
+            </div>
+            <a href="https://clevelandtruckparking.storageunitsoftware.com/pages/rent" target="_blank" rel="noopener noreferrer" class="wss-btn wss-btn--primary" style="width: 100%; margin-top: 1.5rem; text-align: center;">
+              Click Here to Rent Now
+            </a>
+          </div>
+        </div>
+
+      </div>
     </div>
   </section>
 
@@ -202,11 +349,11 @@
         <h2 class="wss-section-header__title">Parking Solutions Near You in Cuyahoga County</h2>
       </div>
       <div class="wss-grid wss-grid--5" style="gap: 1.5rem;">
-        <a href="/cities/cleveland-ohio.html" class="wss-area-card"><img src="https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqjgAuOJr3wrqi1yMlO5qctlkxKWuiob6kYQbq6xibnpP-n8IQt2r5vzjFkAgMuKDxbIGEi_" alt="Truck parking near Cleveland, OH" class="wss-area-card__image"><div class="wss-area-card__overlay"></div><div class="wss-area-card__content"><h3 class="wss-area-card__title">Cleveland</h3><p class="wss-area-card__state">OH</p></div></a>
-        <a href="/cities/brooklyn-ohio.html" class="wss-area-card"><img src="https://www.freshwatercleveland.com/galleries/Features/2018/Aug_2018/Issue_349/old_brooklyn-portrait_of_a_neighborhood/o" alt="Truck parking near Brooklyn, OH" class="wss-area-card__image"><div class="wss-area-card__overlay"></div><div class="wss-area-card__content"><h3 class="wss-area-card__title">Brooklyn</h3><p class="wss-area-card__state">OH</p></div></a>
-        <a href="/cities/lakewood-ohio.html" class="wss-area-card"><img src="https://lh5.googleusercontent.com/p/AF1QipPrzqgkLubZ_Fukzt67wNl-qC7xTFxdThpnKI3O=w408-h326-k-no" alt="Truck parking near Lakewood, OH" class="wss-area-card__image"><div class="wss-area-card__overlay"></div><div class="wss-area-card__content"><h3 class="wss-area-card__title">Lakewood</h3><p class="wss-area-card__state">OH</p></div></a>
-        <a href="/cities/parma-ohio.html" class="wss-area-card"><img src="https://lh5.googleusercontent.com/p/AF1QipPZZ3aqNVHfQJN7unMzxUDZTeWkJYy4TDbPPf-u=w408-h544-k-no" alt="Truck parking near Parma, OH" class="wss-area-card__image"><div class="wss-area-card__overlay"></div><div class="wss-area-card__content"><h3 class="wss-area-card__title">Parma</h3><p class="wss-area-card__state">OH</p></div></a>
-        <a href="/cities/euclid-ohio.html" class="wss-area-card"><img src="https://citytowner.com/wp-content/uploads/2023/04/euclid-ohio-history-001.jpeg" alt="Truck parking near Euclid, OH" class="wss-area-card__image"><div class="wss-area-card__overlay"></div><div class="wss-area-card__content"><h3 class="wss-area-card__title">Euclid</h3><p class="wss-area-card__state">OH</p></div></a>
+        <a href="/cities/cleveland-ohio.html" class="wss-area-card"><img src="/images/cleveland-oh.jpg" alt="Truck parking near Cleveland, OH" class="wss-area-card__image"><div class="wss-area-card__overlay"></div><div class="wss-area-card__content"><h3 class="wss-area-card__title">Cleveland</h3><p class="wss-area-card__state">OH</p></div></a>
+        <a href="/cities/brooklyn-ohio.html" class="wss-area-card"><img src="/images/brooklyn-oh.jpg" alt="Truck parking near Brooklyn, OH" class="wss-area-card__image"><div class="wss-area-card__overlay"></div><div class="wss-area-card__content"><h3 class="wss-area-card__title">Brooklyn</h3><p class="wss-area-card__state">OH</p></div></a>
+        <a href="/cities/lakewood-ohio.html" class="wss-area-card"><img src="/images/lakewood-oh.jpg" alt="Truck parking near Lakewood, OH" class="wss-area-card__image"><div class="wss-area-card__overlay"></div><div class="wss-area-card__content"><h3 class="wss-area-card__title">Lakewood</h3><p class="wss-area-card__state">OH</p></div></a>
+        <a href="/cities/parma-ohio.html" class="wss-area-card"><img src="/images/parma-oh.png" alt="Truck parking near Parma, OH" class="wss-area-card__image"><div class="wss-area-card__overlay"></div><div class="wss-area-card__content"><h3 class="wss-area-card__title">Parma</h3><p class="wss-area-card__state">OH</p></div></a>
+        <a href="/cities/euclid-ohio.html" class="wss-area-card"><img src="/images/euclid-oh.jpg" alt="Truck parking near Euclid, OH" class="wss-area-card__image"><div class="wss-area-card__overlay"></div><div class="wss-area-card__content"><h3 class="wss-area-card__title">Euclid</h3><p class="wss-area-card__state">OH</p></div></a>
       </div>
       <div class="wss-text-center wss-mt-8"><a href="/cities/" class="wss-btn wss-btn--outline">View All Areas We Serve</a></div>
     </div>

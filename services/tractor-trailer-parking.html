@@ -23,29 +23,53 @@
   <!-- Stylesheet -->
   <link rel="stylesheet" href="/css/styles.css">
 
-  <!-- Service Schema -->
+  <!-- Service Schema — Tractor Trailer Parking -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "Service",
+    "@id": "https://clevelandtruckparking.com/services/tractor-trailer-parking.html",
     "name": "Tractor Trailer Parking",
-    "description": "Cleveland Truck Parking provides tractor trailer parking at 799 E 73rd St, Cleveland, OH. Our 12x70 ft spots accommodate full-size tractor trailers, 18-wheelers, and over-the-road vehicles. 24/7 gated access, video surveillance, wide lanes, and month-to-month leases.",
+    "url": "https://clevelandtruckparking.com/services/tractor-trailer-parking.html",
+    "description": "Cleveland Truck Parking provides tractor trailer parking at 799 E 73rd St, Cleveland, OH. 12x70 ft spots accommodate full-size tractor trailers, 18-wheelers, and over-the-road vehicles. 24/7 gated access, video surveillance, wide lanes, and month-to-month leases. $125/month.",
+    "audience": {
+      "@type": "Audience",
+      "audienceType": "Fleet managers, freight carriers, and intermodal operators needing secure tractor trailer storage"
+    },
     "provider": {
-      "@type": "LocalBusiness",
+      "@type": "Corporation",
+      "@id": "https://clevelandtruckparking.com/about.html",
       "name": "Cleveland Truck Parking",
+      "description": "Cleveland Truck Parking offers secure, affordable parking for semi-trucks, tractor trailers, box trucks, and commercial vehicles. Located at 799 E 73rd St in Cleveland, OH with 24/7 access, round-the-clock surveillance, and flexible month-to-month leases.",
+      "slogan": "Secure Commercial Truck Parking in Cleveland, OH",
+      "url": "https://clevelandtruckparking.com/",
+      "telephone": "(216) 600-1656",
+      "email": "parking@clevelandtruckparking.com",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "799 E 73rd St,",
+        "streetAddress": "799 E 73rd St",
         "addressLocality": "Cleveland",
         "addressRegion": "OH",
-        "postalCode": "44103"
+        "postalCode": "44103",
+        "addressCountry": "US"
       },
-      "telephone": "(216) 600-1656"
+      "logo": {
+        "@type": "ImageObject",
+        "@id": "logo",
+        "contentUrl": "https://clevelandtruck-parking.s3.us-east-1.amazonaws.com/logo/tr.png",
+        "url": "https://clevelandtruck-parking.s3.us-east-1.amazonaws.com/logo/tr.png"
+      },
+      "makesOffer": {
+        "@type": "Offer",
+        "itemOffered": [
+          {"@id": "https://clevelandtruckparking.com/services/truck-parking.html"},
+          {"@id": "https://clevelandtruckparking.com/services/semi-truck-parking.html"},
+          {"@id": "https://clevelandtruckparking.com/services/box-truck-parking.html"},
+          {"@id": "https://clevelandtruckparking.com/services/tractor-trailer-parking.html"}
+        ]
+      }
     },
-    "areaServed": {
-      "@type": "City",
-      "name": "Cleveland"
-    }
+    "brand": {"@id": "https://clevelandtruckparking.com/about.html"}
   }
   </script>
   <link rel="llm-index" href="/llm-index.json" type="application/json">
