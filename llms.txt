@@ -1,31 +1,30 @@
-# Cleveland Truck Parking
-> Cleveland Truck Parking offers secure, affordable parking for semi-trucks, tractor trailers, box trucks, and commercial vehicles at 799 E 73rd St in Cleveland, OH. We serve owner-operators, fleet managers, and local delivery drivers with 24/7 access, round-the-clock surveillance, and flexible month-to-month leases.
+# Total Space
+> Total Space offers secure outdoor RV, boat, vehicle, tractor trailer, and fleet parking near Monroe, NC. Conveniently located at 1508 NC-218, Indian Trail, NC 28079 with gated access, cameras, and well-lit premises. Call (980) 455-8398.
 
-This site provides information about available parking spot sizes, facility features, service areas, and how to reserve a spot. Use this file to understand what Cleveland Truck Parking offers and how commercial vehicle operators can secure parking.
+This site provides information about available parking services, service areas across Union County, NC, and how to reserve a spot.
 
 ## Parking Services
-- [Truck Parking](https://clevelandtruckparking.com/services/truck-parking.html): Overview of all commercial truck parking options — features, security, and flexible leases
-- [Semi-Truck Parking](https://clevelandtruckparking.com/services/semi-truck-parking.html): Dedicated 12'x70' spots for semi-trucks with HOS compliance support and wide-lane access
-- [Box Truck Parking](https://clevelandtruckparking.com/services/box-truck-parking.html): 9'x25' spots for box trucks, sprinter vans, and medium-duty commercial vehicles
-- [Tractor Trailer Parking](https://clevelandtruckparking.com/services/tractor-trailer-parking.html): Full-size 12'x70' spots for tractor trailers with easy pull-through access
+- [RV Parking](https://www.totalspace.com/services/rv-parking.html): Secure outdoor RV parking with gated access, cameras, and flexible month-to-month leases
+- [Boat Parking](https://www.totalspace.com/services/boat-parking.html): Safe boat storage with well-lit, monitored outdoor parking near Indian Trail, NC
+- [Large Truck Parking](https://www.totalspace.com/services/large-truck-parking.html): Commercial and large truck parking with wide-lane access and 24/7 surveillance
+- [Trailer Parking](https://www.totalspace.com/services/trailer-parking.html): Tractor trailer and utility trailer parking with easy pull-through access
 
 ## Getting Started
-- [Parking Spot Size Guide](https://clevelandtruckparking.com/size-guide.html): Visual guide to spot sizes — 9'x25' for box trucks and 12'x70' for semis and tractor trailers
-- [Contact Us](https://clevelandtruckparking.com/contact.html): Phone, email, address, and contact form to inquire about availability or reserve a spot
+- [Size Guide](https://www.totalspace.com/size-guide.html): Visual guide to available spot sizes for RVs, boats, trucks, and trailers
+- [Contact Us](https://www.totalspace.com/contact.html): Phone, email, address, and hours to inquire about availability or reserve a spot
 
 ## Service Areas
-- [Truck Parking Near Cleveland, OH](https://clevelandtruckparking.com/cities/cleveland-ohio.html): Parking solutions for Cleveland-based trucking operators and businesses
-- [Truck Parking Near Brooklyn, OH](https://clevelandtruckparking.com/cities/brooklyn-ohio.html): Serving Brooklyn and southwest Cuyahoga County commercial vehicle operators
-- [Truck Parking Near Lakewood, OH](https://clevelandtruckparking.com/cities/lakewood-ohio.html): Convenient parking for Lakewood and western suburb fleet operators
-- [Truck Parking Near Parma, OH](https://clevelandtruckparking.com/cities/parma-ohio.html): Accessible truck parking for Parma and surrounding communities
-- [Truck Parking Near Euclid, OH](https://clevelandtruckparking.com/cities/euclid-ohio.html): Serving Euclid and eastern Cuyahoga County trucking businesses
+- [Parking Near Indian Trail, NC](https://www.totalspace.com/cities/indian-trail-north-carolina.html): Serving Indian Trail and Union County residents with secure outdoor parking
+- [Parking Near Marshville, NC](https://www.totalspace.com/cities/marshville-north-carolina.html): Convenient parking solutions for Marshville area vehicle and RV owners
+- [Parking Near Mint Hill, NC](https://www.totalspace.com/cities/mint-hill-north-carolina.html): Outdoor vehicle and RV parking for Mint Hill and southeast Mecklenburg County
+- [Parking Near Unionville, NC](https://www.totalspace.com/cities/Unionville-noth-carolina.html): Secure parking for Unionville and surrounding Union County communities
+- [Parking Near Weddington, NC](https://www.totalspace.com/cities/Weddington-north-carolina.html): Serving Weddington and southern Union County with monitored outdoor parking
 
 ## About
-- [About Cleveland Truck Parking](https://clevelandtruckparking.com/about.html): Company background, facility overview, and commitment to the Cleveland trucking community
-- [Home](https://clevelandtruckparking.com/): Main landing page with facility features, service overview, and reservation options
+- [About Total Space](https://www.totalspace.com/about.html): Facility overview, security features, and commitment to the Indian Trail community
+- [Home](https://www.totalspace.com/): Main landing page with parking options, facility features, and reservation info
 
 ## Optional
-- [FAQ](https://clevelandtruckparking.com/faqs.html): Answers to common questions about spot sizes, leases, security, and access
-- [Blog](https://clevelandtruckparking.com/blog/): Truck parking tips, industry news, and facility updates
-- [Privacy Policy](https://clevelandtruckparking.com/privacy.html): How customer data is collected and handled
-- [Terms of Service](https://clevelandtruckparking.com/terms.html): Rental agreement terms and conditions
+- [FAQ](https://www.totalspace.com/faqs.html): Answers to common questions about parking sizes, leases, security, and access
+- [Blog](https://blog.totalspace.com/): Parking tips, facility updates, and local community news
+- [Privacy Policy](https://www.totalspace.com/privacy.html): How customer data is collected and handled

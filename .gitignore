@@ -28,3 +28,4 @@ test-output/
 
 # Excel temp files
 ~$*.xlsx
+.vercel
