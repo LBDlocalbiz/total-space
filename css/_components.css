@@ -2008,17 +2008,12 @@
 .wss-unit-card__image {
   height: 12rem;
   overflow: hidden;
-  background-color: #f8fafc;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 1rem;
 }
 
 .wss-unit-card__image img {
   width: 100%;
   height: 100%;
-  object-fit: contain;
+  object-fit: cover;
 }
 
 .wss-unit-card__badge--blue {
@@ -2608,4 +2603,39 @@
 
 .wss-legal-content address a:hover {
   color: var(--wss-accent);
+}
+
+/* Attraction Cards (Top Spots / Things To Do) */
+.wss-attraction-card {
+  display: block;
+  background-color: white;
+  border-radius: var(--wss-radius-xl);
+  overflow: hidden;
+  box-shadow: var(--wss-shadow-md);
+  text-decoration: none;
+  transition: box-shadow var(--wss-transition);
+}
+.wss-attraction-card:hover {
+  box-shadow: var(--wss-shadow-lg);
+}
+.wss-attraction-card__image {
+  width: 100%;
+  height: 12rem;
+  object-fit: cover;
+  display: block;
+  transition: transform var(--wss-transition-slow);
+}
+.wss-attraction-card:hover .wss-attraction-card__image {
+  transform: scale(1.05);
+}
+.wss-attraction-card__content {
+  padding: var(--wss-space-4);
+}
+.wss-attraction-card__title {
+  font-weight: 600;
+  color: var(--wss-text);
+  transition: color var(--wss-transition);
+}
+.wss-attraction-card:hover .wss-attraction-card__title {
+  color: var(--wss-primary);
 }

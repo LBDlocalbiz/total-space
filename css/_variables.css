@@ -4,21 +4,21 @@
 
 :root {
   /* Brand Colors - Primary */
-  --wss-primary: #0D223F;
-  --wss-primary-50: #EAF1FB;
-  --wss-primary-100: #D5E3F6;
-  --wss-primary-200: #AAC7EE;
-  --wss-primary-300: #80AAE5;
-  --wss-primary-400: #568EDC;
-  --wss-primary-500: #0D223F;
-  --wss-primary-600: #235BA9;
-  --wss-primary-700: #1D4B8C;
-  --wss-primary-800: #173B6E;
-  --wss-primary-900: #112E55;
-  --wss-primary-950: #0C203B;
+  --wss-primary: #000000;
+  --wss-primary-50: #F2F2F2;
+  --wss-primary-100: #E6E6E6;
+  --wss-primary-200: #CCCCCC;
+  --wss-primary-300: #B2B2B2;
+  --wss-primary-400: #999999;
+  --wss-primary-500: #000000;
+  --wss-primary-600: #666666;
+  --wss-primary-700: #545454;
+  --wss-primary-800: #424242;
+  --wss-primary-900: #333333;
+  --wss-primary-950: #242424;
 
   /* Secondary (White/Light) */
-  --wss-secondary: #FAD36D;
+  --wss-secondary: #FFFFFF;
   --wss-secondary-50: #FFFFFF;
   --wss-secondary-100: #FAFAFA;
   --wss-secondary-200: #F5F5F5;
@@ -26,9 +26,9 @@
   --wss-secondary-400: #D4D4D4;
 
   /* Accent */
-  --wss-accent: #FFFFFF;
-  --wss-accent-500: #FFFFFF;
-  --wss-accent-600: #EBEBEB;
+  --wss-accent: #F98702;
+  --wss-accent-500: #F98702;
+  --wss-accent-600: #D17102;
 
   /* Gray Scale (Standard) */
   --wss-gray-50: #f9fafb;
